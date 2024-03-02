@@ -54,6 +54,8 @@ main {
     width: 80%;
 }
 
+
+
 .aboutme p {
     padding: 10px 20px;
 }
@@ -64,17 +66,31 @@ main {
     flex-wrap: wrap;
 }
 
-#card1 {
-    background-color: brown;
-    width: 100%;
+#card1 img {
+    width: 1200px;
+    height: 600px;
 }
 
-#card2, #card3 {
-    background-color: dodgerblue;
-    width: 50%;
+#card2 img {
+    width: 600px;
+    height: 300px;
 }
 
-#card4, #card5 {
-    background-color: gold;
+#card3 img {
+    width: 600px;
+    height: 300px;
+}
+
+#card4 img {
+    width: 600px;
+    height: 300px;
+}
+
+#card5 img {
+    width: 600px;
+    height: 300px;
+}
+
+#card2, #card3, #card4, #card5 {
     width: 50%;
 }
