@@ -1,0 +1,27 @@
+h1 {
+    background-color: gray;
+}
+
+nav {
+    background-color: aqua;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+h2 {
+    background-color: blueviolet;
+}
+
+aside {
+    background-color: chartreuse;
+}
+
+section div {
+    display: inline;
+}
+
+#card1 {
+    background-color: brown;
+}
