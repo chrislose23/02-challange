@@ -10,12 +10,16 @@ main {
     background-color: antiquewhite;
 }
 
-h2 {
+.sidebar h2 {
+    border: 5px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: none;
+    padding: 5px;
+    border-color: black;
     background-color: blueviolet;
-}
-
-aside {
-    background-color: chartreuse;
+    width: 20%;
 }
 
 section div {
