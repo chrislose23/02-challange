@@ -10,22 +10,45 @@ main {
     background-color: antiquewhite;
 }
 
-.sidebar h2 {
-    border: 5px;
-    border-top-style: none;
+#about, #work {
+    display: flex;
+}
+
+.sidebar {
+    border: 3px;
+    border-top-style: solid;
     border-right-style: solid;
-    border-bottom-style: none;
-    border-left-style: none;
-    padding: 5px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 1px;
     border-color: black;
     background-color: blueviolet;
     width: 20%;
 }
 
-section div {
-    display: inline;
+.aboutme, .cards {
+    border: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 1px;
+    border-color: black;
+    background-color: green;
+    width: 80%;
+}
+
+.aboutme p {
+    padding: 10px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #card1 {
     background-color: brown;
+    width: 100%;
 }
