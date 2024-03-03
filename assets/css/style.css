@@ -36,6 +36,7 @@ main {
 #about, #work, #contact {
     display: flex;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 .sidebar {
@@ -66,27 +67,53 @@ main {
 }
 
 .cards {
-    background-color: green;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.cards div {
-    max-width: 100%;
-    border: 2px;
-    border-style: solid;
-    background-color: honeydew;
-}
+/*.cards div {
+    flex: 2 0 800px;
+    background-color: red;
+}*/
 
 #card1 {
     width: 100%;
-    margin: 2% 2%;
     text-align: center;
 }
 
+#card1 img {
+    width: 800px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+#card2 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#card3 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#card4 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#card5 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+}
+
 #card2, #card3, #card4, #card5 {
-    width: 44%;
+    width: 50%;
     text-align: center;
 }
 
