@@ -21,13 +21,21 @@ main {
     background-color: antiquewhite;
 }
 
-#about, #work, #contact {
-    display: flex;
+.subtitle {
+    border: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 1px;
+    border-color: blue;
+    background-color: orchid;
+    width: 100%;
 }
 
-.links {
+#about, #work, #contact {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .sidebar {
@@ -37,7 +45,7 @@ main {
     border-bottom-style: solid;
     border-left-style: solid;
     padding: 1px;
-    border-color: black;
+    border-color: red;
     background-color: blueviolet;
     width: 20%;
 }
@@ -49,48 +57,40 @@ main {
     border-bottom-style: solid;
     border-left-style: solid;
     padding: 1px;
-    border-color: black;
-    background-color: green;
-    width: 80%;
+    border-color: yellow;
+    width: 76%;
 }
-
-
 
 .aboutme p {
     padding: 10px 20px;
 }
 
 .cards {
+    background-color: green;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-#card1 img {
-    width: 1200px;
-    height: 600px;
+.cards div {
+    max-width: 100%;
+    border: 2px;
+    border-style: solid;
+    background-color: honeydew;
 }
 
-#card2 img {
-    width: 600px;
-    height: 300px;
-}
-
-#card3 img {
-    width: 600px;
-    height: 300px;
-}
-
-#card4 img {
-    width: 600px;
-    height: 300px;
-}
-
-#card5 img {
-    width: 600px;
-    height: 300px;
+#card1 {
+    width: 100%;
+    margin: 2% 2%;
+    text-align: center;
 }
 
 #card2, #card3, #card4, #card5 {
-    width: 50%;
+    width: 44%;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
 }
