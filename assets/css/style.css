@@ -99,9 +99,46 @@ main {
     background-color: red;
 }*/
 
+#card1 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card2 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card3 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card4 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card5 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #card1 {
     width: 100%;
+    position: relative;
     text-align: center;
+    color: black;
 }
 
 #card1 img {
@@ -136,7 +173,9 @@ main {
 
 #card2, #card3, #card4, #card5 {
     width: 50%;
+    position: relative;
     text-align: center;
+    color: white;
 }
 
 .links {
