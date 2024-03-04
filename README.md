@@ -2,8 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 This application was built to showcase my work as I grow in the coding industry. 
 I built this application tocollect my work and allow the community to veiw what I have done.
 The site allows my a space to hold organize what I have created and add to it over time.
